@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Inbox</item>
+        <item>Snoozed</item>
+        <item>Done</item>
+        <item>Draftd</item>
+        <item>Sent</item>
+        <item>Reminder</item>
+        <item>Trash</item>
+        <item>Snoozed</item>
+        <item>Done</item>
+        <item>Draftd</item>
+        <item>Sent</item>
+        <item>Reminder</item>
+        <item>Trash</item>
+    </string-array>
+</resources>

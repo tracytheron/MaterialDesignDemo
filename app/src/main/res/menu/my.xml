@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item android:id="@+id/action_notification"
+        android:title="@string/action_notification"
+        android:icon="@drawable/bt_ic_notifications_g50_24dp"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_settings_person"
+        android:title="设置"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings_bonus"
+        android:title="红包"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_opinion"
+        android:title="反馈"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_help"
+        android:title="帮助"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

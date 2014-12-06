@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+    </style>
+    <style name="ActionButtonStyle" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/primary</item>
+    </style>
+    <!--<style name="AppTheme.Base" parent="Theme.AppCompat">-->
+        <!--<item name="android:windowActionBar">false</item>-->
+        <!--<item name="android:windowNoTitle">true</item>-->
+    <!--</style>-->
+</resources>

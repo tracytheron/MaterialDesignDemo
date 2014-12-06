@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/select_item"
+    android:padding="15dip">
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:src="@drawable/official_head"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dip"
+        android:layout_alignParentLeft="true"/>
+    <LinearLayout
+        android:layout_toRightOf="@+id/iv_head"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_name"
+            android:text="毛瑞斌"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv_description"
+            android:text="材料设计 非常好看，值得一学"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"/>
+    </LinearLayout>
+</RelativeLayout>
